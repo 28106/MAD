@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Row 1: Time -->
+    <TableRow>
+        <TextView
+            android:text="Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- Row 2: First Name -->
+    <TableRow>
+        <TextView
+            android:text="First Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- Row 3: Last Name -->
+    <TableRow>
+        <TextView
+            android:text="Last Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- Row 4: RatingBar -->
+    <TableRow>
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- Row 5: Submit Button -->
+    <TableRow>
+        <Button
+            android:id="@+id/button"
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+</TableLayout>
